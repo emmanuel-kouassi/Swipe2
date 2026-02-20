@@ -123,7 +123,7 @@ function MonSuivis(): JSX.Element {
 		}
 
 		try {
-			const newSessionsFromApi = [];
+			const newSessionsFromApi: any[] = [];
 
 			for (const day of selectedDays) {
 				const sessionDate = new Date(
