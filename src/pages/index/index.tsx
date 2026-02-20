@@ -19,7 +19,7 @@ function Index(): JSX.Element {
         "Routage (OSPF, BGP)",
     ];
     const directorie: string = "swipe/image";
-    const lstSwipeColab = [];
+   const lstSwipeColab: string[] = [];
     // for i in range(1, 6): directorie = directorie + str(i).svg
     for (let i = 1; i <= 6; i++) {
         lstSwipeColab.push(directorie + "0" + i + ".png");
