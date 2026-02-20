@@ -8,7 +8,7 @@ import { Routes, Route, Outlet } from "react-router-dom";
 // components
 import Header from "./components/header/header.tsx";
 import Footer from "./components/footer/footer.tsx";
-import Cookies from "./components/cookies/cookies.tsx";
+import Cookies from "./components/cookies/cookies";
 
 // pages
 import Index from "./pages/index/index.tsx";
