@@ -8,7 +8,7 @@ import { Routes, Route, Outlet } from "react-router-dom";
 // components
 import Header from "./components/header/header.tsx";
 import Footer from "./components/footer/footer.tsx";
-import Cookies from "./components/cookies/Cookies.tsx";
+import Cookies from "./components/cookies/cookies.tsx";
 
 // pages
 import Index from "./pages/index/index.tsx";
@@ -20,11 +20,11 @@ import Details from "./pages/details/details.tsx";
 import PrivateRoute from "./components/privateroute.tsx"; 
 import MonSuivis from "./pages/monSuivis/monSuivis.tsx";
 import NosSalles from "./pages/nossalles/nossalles";
-import Overview from "./pages/Admin/overview/overview.tsx";
+import Overview from "./pages/admin/overview/overview.tsx";
 
 
 
-import Admin from "./pages/Admin/admin.tsx";
+import Admin from "./pages/admin/admin.tsx";
 
 function App() {
 	const { pathname } = useLocation();
