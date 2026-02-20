@@ -1,4 +1,4 @@
-import "./formationAdmin.scss";
+import "./FormationAdmin.scss";
 import { type JSX, useEffect, useState } from "react";
 import AddFormation from "../../../components/admin/addformation";
 
