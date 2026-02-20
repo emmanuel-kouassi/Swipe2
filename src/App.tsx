@@ -20,7 +20,7 @@ import Details from "./pages/details/details.tsx";
 import PrivateRoute from "./components/privateroute.tsx"; 
 import MonSuivis from "./pages/monSuivis/monSuivis.tsx";
 import NosSalles from "./pages/nossalles/nossalles";
-import Overview from "./pages/Admin/Overview/overview.tsx";
+import Overview from "./pages/Admin/overview/overview.tsx";
 
 
 

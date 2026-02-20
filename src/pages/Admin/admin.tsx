@@ -3,7 +3,7 @@ import { type JSX, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 import FormationAdmin from "./FormationAdmin/FormationAdmin";
-import Overview from "./Overview/overview";
+import Overview from "./overview/overview";
 import Users from "./userAdmin/userAdmin";
 import ReservationAdmin from "./reservationAdmin/reservationAdmin";
 

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./overview.scss";
+import "./overview-temp.scss";
 import { type JSX, useEffect, useState } from "react";
 
 export default function Overview(): JSX.Element {
